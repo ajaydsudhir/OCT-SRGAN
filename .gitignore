@@ -1,0 +1,22 @@
+# Dataset
+# data/
+
+# PyTorch
+*.pt
+*.pth
+
+# Keep scaffold folders in git
+!artifacts/splits/.gitkeep
+!checkpoints/model_a/.gitkeep
+!checkpoints/srgan/.gitkeep
+!checkpoints/model_b/.gitkeep
+!resources/.gitkeep
+
+# Keep uploaded docs in resources
+!resources/*.pdf
+
+# Notebooks and Python cache
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+notebooks/AjaySudhir_Assignment1.ipynb
